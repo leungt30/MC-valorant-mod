@@ -15,6 +15,10 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.VALORANT_TAB)));
     public static final RegistryObject<Item> RAW_ZIRCON = ITEMS.register("raw_zircon",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.VALORANT_TAB)));
+    public static final RegistryObject<Item> KNIFE = ITEMS.register("knife",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.VALORANT_TAB)));
+    public static final RegistryObject<Item> LIGHT_SHIELD = ITEMS.register("light_shield",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.VALORANT_TAB)));
 
 
     public static void register(IEventBus eventBus){

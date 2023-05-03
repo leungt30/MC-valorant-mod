@@ -1,5 +1,7 @@
 {
   "item.valorantmod.zircon": "Zircon",
   "item.valorantmod.raw_zircon": "Raw Zircon",
-  "itemGroup.valoranttab": "Valorant Tab"
+  "itemGroup.valoranttab": "Valorant Tab",
+  "item.valorantmod.knife": "Knife",
+  "item.valorantmod.light_shield" : "Light Shield"
 }
