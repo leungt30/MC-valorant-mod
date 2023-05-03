@@ -42,7 +42,7 @@ public class ValorantMod {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
-
+    //Tim sucky doo
         }
     }
 }
