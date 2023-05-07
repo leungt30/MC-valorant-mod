@@ -10,6 +10,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.ForgeRegistries;
+import net.tim.valorantmod.block.ModBlocks;
 import net.tim.valorantmod.item.ModItems;
 import org.slf4j.Logger;
 
@@ -25,7 +26,7 @@ public class ValorantMod {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(modEventBus); //registers our mod items
-
+        ModBlocks.register(modEventBus); //registers our mod blocks
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);

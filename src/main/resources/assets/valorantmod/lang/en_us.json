@@ -1,7 +1,14 @@
 {
   "item.valorantmod.zircon": "Zircon",
   "item.valorantmod.raw_zircon": "Raw Zircon",
-  "itemGroup.valoranttab": "Valorant Tab",
+
   "item.valorantmod.knife": "Knife",
-  "item.valorantmod.light_shield" : "Light Shield"
+  "item.valorantmod.light_shield" : "Light Shield",
+
+  "itemGroup.valoranttab": "Valorant Tab",
+
+
+  "block.valorantmod.zircon_block": "Block of Zircon",
+  "block.valorantmod.zircon_ore": "Zircon Ore",
+  "block.valorantmod.deepslate_zircon_ore": "Deepslate Zircon Ore"
 }
