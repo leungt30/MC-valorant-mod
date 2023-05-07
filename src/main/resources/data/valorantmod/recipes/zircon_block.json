@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "valorantmod:zircon"
+    }
+  },
+  "result": {
+    "item": "valorantmod:zircon_block"
+  }
+}
